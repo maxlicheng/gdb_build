@@ -13,7 +13,7 @@ tar -vxf gdb-8.3.1.tar.xz
 
 ### use
 ```shell
-git clone 
+git clone https://github.com/maxlicheng/gdb_build.git
 cp ./gdb_build/build_gdb.sh ./gdb-8.3.1
 cd ./gdb-8.3.1
 sudo sh build_gdb.sh
